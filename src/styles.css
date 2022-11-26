@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(102, 81, 54);
+  background-color: rgb(211, 186, 153) !important;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 h1 {
@@ -11,6 +13,19 @@ h1 {
   padding: 30px;
 }
 p {
-  max-width: 800px;
+  display: block;
   margin: 0 auto;
+  text-align: center;
+}
+a {
+  color: brown !important;
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: underline !important;
+}
+#croissant-img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
 }
